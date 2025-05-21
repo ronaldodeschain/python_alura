@@ -1,4 +1,5 @@
 from modelos.avaliacao import Avaliacao
+from modelos.cardapio.item_cardapio import ItemCardapio
 
 class Restaurante:
     """representa um restaurante e suas caracteristicas"""
@@ -65,9 +66,19 @@ class Restaurante:
         quantidade_de_notas = len(self._avaliacao)
         media = round(soma_das_notas / quantidade_de_notas,1)
         return media
-
-    def adicionar_bebida_no_menu(self,bebida):
-        self._cardapio.append(bebida)
-
-    def adicionar_prato_no_menu(self,prato):
-        self._cardapio.append(prato)
+    
+    """"Método para adicionar item ao cardapio"""
+    def adicionar_no_cardapio(self,item):
+        if isinstance(item,ItemCardapio):
+            self._cardapio.append(item)
+    
+    """"Método para exibir itens do cardapio"""
+    @property
+    def exibir_cardapio(self):
+        print(f'Cardapio do Restaurante {self._nome}\n')
+        for i,item in enumerate(self._cardapio,start=1):
+            if hasattr(item,'descricao'):
+                msg = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Descrição: {item.descricao}'
+                print(msg)
+            else:
+                ...
