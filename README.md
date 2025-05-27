@@ -13,3 +13,5 @@ Repositório para os cursos de Python e Django da alura
 [Python: Avance na Orientação a objetos e consuma Api](https://cursos.alura.com.br/course/python-avance-orientacao-objetos-consuma-api)
 
 [Django: templates e boas praticas](https://cursos.alura.com.br/course/django-templates-boas-praticas)
+
+[Django: persistencia de dados e Admin](https://cursos.alura.com.br/course/django-persistencia-dados-admin)
