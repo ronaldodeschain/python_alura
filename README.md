@@ -3,6 +3,7 @@ Repositório para os cursos de Python e Django da alura
 
 ##  settings 
 [settings json](https://github.com/luizomf/cursopython2023/blob/main/.vscode/settings.json)
+sqlite e sqlite viewer
 
 # Cursos da Alura
 
