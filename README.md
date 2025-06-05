@@ -16,3 +16,5 @@ sqlite e sqlite viewer
 [Django: templates e boas praticas](https://cursos.alura.com.br/course/django-templates-boas-praticas)
 
 [Django: persistencia de dados e Admin](https://cursos.alura.com.br/course/django-persistencia-dados-admin)
+
+[Django: autenticacao e formulários de alerta](https://cursos.alura.com.br/course/django-autenticacao-formularios-alerta)
