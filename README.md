@@ -13,8 +13,10 @@ sqlite e sqlite viewer
 
 [Python: Avance na Orientação a objetos e consuma Api](https://cursos.alura.com.br/course/python-avance-orientacao-objetos-consuma-api)
 
-[Django: templates e boas praticas](https://cursos.alura.com.br/course/django-templates-boas-praticas)
+[Django: templates e boas práticas](https://cursos.alura.com.br/course/django-templates-boas-praticas)
 
-[Django: persistencia de dados e Admin](https://cursos.alura.com.br/course/django-persistencia-dados-admin)
+[Django: persistência de dados e Admin](https://cursos.alura.com.br/course/django-persistencia-dados-admin)
 
-[Django: autenticacao e formulários de alerta](https://cursos.alura.com.br/course/django-autenticacao-formularios-alerta)
+[Django: autenticação e formulários de alerta](https://cursos.alura.com.br/course/django-autenticacao-formularios-alerta)
+
+[Django: autenticação com OAuth2.0](https://cursos.alura.com.br/course/django-autenticacao-oauth2-0)
