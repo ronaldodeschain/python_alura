@@ -4,10 +4,10 @@ from galeria.models import Fotografia
 #Crud de administrador dentro do site
 # Register your models here.
 class ListandoFotografias(admin.ModelAdmin):
-    list_display = ("id","nome","legenda","publicada")
+    list_display = ("id","nome","legenda","publicada",)
     list_display_links = ("id","nome")
     search_fields = ("nome",)
-    list_filter = ("categoria","publicada",)
+    list_filter = ("categoria","publicada","usuario",)
     list_editable = ("publicada",)
     list_per_page = 10
 

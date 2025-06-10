@@ -8,6 +8,9 @@ def index(request):
     #exibe fotos na página index - Order by permite selecionar qual parametro
     #vai servir de indice para ordenação. Se colocar o - antes do texto
     # a ordem se torna inversa
+    if not request.user.is_authenticated:
+        messages.error(request,f'Precisa estar logado!')
+        return redirect('login')
     fotografias = Fotografia.objects.order_by("data_fotografia").filter(publicada=True)
     return render(request, 'galeria/index.html',{"cards":fotografias})
 
