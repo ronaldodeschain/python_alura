@@ -22,3 +22,5 @@ sqlite e sqlite viewer
 [Django: autenticação com OAuth2.0](https://cursos.alura.com.br/course/django-autenticacao-oauth2-0)
 
 [Django: CRUD e persistência no s3](https://cursos.alura.com.br/course/django-crud-persistencia-s3)
+
+[repositório para Formação Praticando Python](https://github.com/ronaldodeschain/formacao_praticando_python)
