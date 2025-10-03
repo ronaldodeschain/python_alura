@@ -23,6 +23,8 @@ sqlite e sqlite viewer
 
 [Django: CRUD e persistência no s3](https://cursos.alura.com.br/course/django-crud-persistencia-s3)
 
+[Django REST Framework: construindo APIs RESTful do Zero](https://cursos.alura.com.br/course/django-rest-framework-construindo-apis-restful-zero)
+
 [repositório para Formação Praticando Python](https://github.com/ronaldodeschain/formacao_praticando_python)
 
 [flask: crie uma webapp com Python](https://github.com/ronaldodeschain/flaskwebapp-python)
